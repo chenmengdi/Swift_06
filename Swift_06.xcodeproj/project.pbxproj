@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5F0A74D91FCBD54A00481650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A74D81FCBD54A00481650 /* AppDelegate.swift */; };
-		5F0A74DB1FCBD54A00481650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A74DA1FCBD54A00481650 /* ViewController.swift */; };
 		5F0A74DE1FCBD54A00481650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0A74DC1FCBD54A00481650 /* Main.storyboard */; };
 		5F0A74E01FCBD54A00481650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0A74DF1FCBD54A00481650 /* Assets.xcassets */; };
 		5F0A74E31FCBD54A00481650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F0A74E11FCBD54A00481650 /* LaunchScreen.storyboard */; };
 		5F0A74EE1FCBD54A00481650 /* Swift_06Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A74ED1FCBD54A00481650 /* Swift_06Tests.swift */; };
 		5F0A74F91FCBD54A00481650 /* Swift_06UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A74F81FCBD54A00481650 /* Swift_06UITests.swift */; };
+		5F0A75071FCBD73700481650 /* MynavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A75061FCBD73700481650 /* MynavigationViewController.swift */; };
+		5F0A75091FCBD79800481650 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A75081FCBD79800481650 /* OneViewController.swift */; };
+		5F0A750B1FCBD7A300481650 /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A750A1FCBD7A300481650 /* TwoViewController.swift */; };
+		5F0A750D1FCBD7AF00481650 /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A750C1FCBD7AF00481650 /* ThreeViewController.swift */; };
+		5F0A750F1FCBD86000481650 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A750E1FCBD86000481650 /* MyTabBarViewController.swift */; };
+		5F9779C91FCBDBC300455A19 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9779C81FCBDBC300455A19 /* FourViewController.swift */; };
+		5FBA70BB1FCC0EE1003D08B2 /* CC_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA70BA1FCC0EE1003D08B2 /* CC_TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		5F0A74D51FCBD54A00481650 /* Swift_06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0A74D81FCBD54A00481650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F0A74DA1FCBD54A00481650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F0A74DD1FCBD54A00481650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F0A74DF1FCBD54A00481650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F0A74E21FCBD54A00481650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		5F0A74F41FCBD54A00481650 /* Swift_06UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_06UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0A74F81FCBD54A00481650 /* Swift_06UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_06UITests.swift; sourceTree = "<group>"; };
 		5F0A74FA1FCBD54A00481650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F0A75061FCBD73700481650 /* MynavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MynavigationViewController.swift; sourceTree = "<group>"; };
+		5F0A75081FCBD79800481650 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		5F0A750A1FCBD7A300481650 /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		5F0A750C1FCBD7AF00481650 /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		5F0A750E1FCBD86000481650 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		5F9779C81FCBDBC300455A19 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
+		5FBA70BA1FCC0EE1003D08B2 /* CC_TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CC_TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +110,13 @@
 			isa = PBXGroup;
 			children = (
 				5F0A74D81FCBD54A00481650 /* AppDelegate.swift */,
-				5F0A74DA1FCBD54A00481650 /* ViewController.swift */,
+				5F0A75081FCBD79800481650 /* OneViewController.swift */,
+				5F0A750A1FCBD7A300481650 /* TwoViewController.swift */,
+				5F0A750C1FCBD7AF00481650 /* ThreeViewController.swift */,
+				5F9779C81FCBDBC300455A19 /* FourViewController.swift */,
+				5F0A75061FCBD73700481650 /* MynavigationViewController.swift */,
+				5F0A750E1FCBD86000481650 /* MyTabBarViewController.swift */,
+				5FBA70BA1FCC0EE1003D08B2 /* CC_TabBar.swift */,
 				5F0A74DC1FCBD54A00481650 /* Main.storyboard */,
 				5F0A74DF1FCBD54A00481650 /* Assets.xcassets */,
 				5F0A74E11FCBD54A00481650 /* LaunchScreen.storyboard */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0A74DB1FCBD54A00481650 /* ViewController.swift in Sources */,
+				5F0A750F1FCBD86000481650 /* MyTabBarViewController.swift in Sources */,
+				5F0A75091FCBD79800481650 /* OneViewController.swift in Sources */,
+				5F9779C91FCBDBC300455A19 /* FourViewController.swift in Sources */,
+				5FBA70BB1FCC0EE1003D08B2 /* CC_TabBar.swift in Sources */,
+				5F0A75071FCBD73700481650 /* MynavigationViewController.swift in Sources */,
 				5F0A74D91FCBD54A00481650 /* AppDelegate.swift in Sources */,
+				5F0A750B1FCBD7A300481650 /* TwoViewController.swift in Sources */,
+				5F0A750D1FCBD7AF00481650 /* ThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +451,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = Swift_06/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-06";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +467,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99BHKCM7DV;
 				INFOPLIST_FILE = Swift_06/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift-06";
 				PRODUCT_NAME = "$(TARGET_NAME)";
